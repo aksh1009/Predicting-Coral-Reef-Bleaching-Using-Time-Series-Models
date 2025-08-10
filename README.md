@@ -76,6 +76,20 @@ Coral bleaching is a severe environmental issue where corals expel the algae (*z
 <img width="920" height="794" alt="image" src="https://github.com/user-attachments/assets/21c18451-b5ff-4374-9f71-ad115860b7df" />
 
 ---
+## Results
+
+| Model   | RMSE   | AIC     |                     Notes                          |
+|---------|--------|---------|----------------------------------------------------|
+| ARIMA   | 0.84   | 120.54  | Baseline time series model                         |
+| ARIMAX  | 0.80   | 118.77  | Includes Solar Radiation as exogenous variable     |
+| ETS     | 0.78   | 115.32  | Best performance, captures seasonality effectively |
+| VAR     | 0.82   | 119.45  | Captures interactions between SST & Solar Radiation|
+
+**Key Insights:**
+- **Bleaching Risk Threshold:** SST > 29.5°C strongly correlates with bleaching events.
+- **Best Model:** ETS model had the lowest RMSE and best seasonal fit.
+- **Environmental Drivers:** High solar radiation and low cloud cover significantly increase SST, heightening bleaching risk.
+- **Forecasting Benefit:** Model outputs can help in creating early-warning alerts for reef conservation.
 
 ## Authors
 - **Sreya Mynampati** (22BAI1163)  
