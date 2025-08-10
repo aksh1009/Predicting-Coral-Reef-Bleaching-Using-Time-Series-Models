@@ -1,7 +1,6 @@
-# Predicting-Coral-Reef-Bleaching-Using-Time-Series-Models
-Probability and Statistics Course Project - October 2024
 
 # Predicting Coral Reef Bleaching Using Time Series Models
+Probability and Statistics Course Project - October 2024
 
 ## Project Overview
 Coral bleaching is a severe environmental issue where corals expel the algae (*zooxanthellae*) living in their tissues, causing them to turn white. This process is often triggered by environmental stress—primarily rising **Sea Surface Temperatures (SST)**—and can lead to coral death, reducing marine biodiversity. This project analyzes historical coral bleaching data, identifies key environmental factors, and builds **time series forecasting models** to predict future bleaching events.
