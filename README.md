@@ -78,6 +78,10 @@ Coral bleaching is a severe environmental issue where corals expel the algae (*z
 ---
 ## Results
 
+**Evaluation Metrics Used:**
+- **RMSE (Root Mean Square Error):** Measures the average magnitude of forecast errors. A lower RMSE indicates better predictive accuracy.
+- **AIC (Akaike Information Criterion):** Balances model fit and complexity. A lower AIC means the model explains the data well without overfitting.
+
 | Model   | RMSE   | AIC     |                     Notes                          |
 |---------|--------|---------|----------------------------------------------------|
 | ARIMA   | 0.84   | 120.54  | Baseline time series model                         |
